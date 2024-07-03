@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("football.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.ps {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ps h2 {
+    margin-top: 0;
+}
+
+.ps form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ps input[type='text'], 
+.ps input[type='date'], 
+.ps input[type='submit'] {
+    border: 1.5px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+.ps input[type='submit'] {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ps input[type='submit']:hover {
+    background-color: #45a049;
+}

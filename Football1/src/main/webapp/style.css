@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+  background-image:url("football.jpg");
+  background-repeat:no repeat;
+  height: 500 px;
+}
+a:hover{
+background-color:silver;
+text-align:center;
+}
+a:link{
+	color:green;
+	padding:5px 5px;
+    text-decoration:none;
+    display:inline-block;
+}
+div.y1{
+	padding-left:3%;
+}
